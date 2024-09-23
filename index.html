@@ -9,10 +9,15 @@
 
     <style>
         .card-body iframe {
-            width: 100%; /* O iframe vai ocupar 100% da largura do card */
-            height: auto; /* Mantém a proporção do vídeo */
-            aspect-ratio: 16/9; /* Para garantir a proporção de vídeo correta (16:9) */
-            display: block; /* Remove o espaço abaixo do iframe */
+            width: 100%;
+            height: auto;
+            aspect-ratio: 16/9;
+            display: block;
+        }
+    
+        iframe[allowfullscreen] {
+            /* Forçar tela cheia */
+            fullscreen: true;
         }
     </style>
 </head>
@@ -64,7 +69,7 @@
                             </div>
                             <div id="collapse1" class="collapse m-2" data-bs-parent="#accordion">
                                 <div class="card-body">
-                                    <iframe frameborder="0" src="https://mega.nz/embed/hJhDwCCJ#JJjMOICtBfwAgnUw6_wdQNGEAPvHKo2c91SXgJ231xs" allowfullscreen ></iframe>
+                                    <iframe frameborder="0" src="https://mega.nz/embed/hJhDwCCJ#JJjMOICtBfwAgnUw6_wdQNGEAPvHKo2c91SXgJ231xs" allowfullscreen allow="fullscreen"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -77,7 +82,7 @@
                             </div>
                             <div id="collapse2" class="collapse m-2" data-bs-parent="#accordion">
                                 <div class="card-body">
-                                    <iframe frameborder="0" src="https://mega.nz/embed/ZNJ3RJKR#ONsAKwEnS6b0JfRzNUuKAxnuookAGI6kvnhSd6iqaQw" allowfullscreen ></iframe>    
+                                    <iframe frameborder="0" src="https://mega.nz/embed/ZNJ3RJKR#ONsAKwEnS6b0JfRzNUuKAxnuookAGI6kvnhSd6iqaQw" allowfullscreen allow="fullscreen"></iframe>    
                                 </div>
                             </div>
                         </div>
@@ -90,7 +95,7 @@
                             </div>
                             <div id="collapse3" class="collapse m-2" data-bs-parent="#accordion">
                                 <div class="card-body">
-                                    <iframe frameborder="0" src="https://mega.nz/embed/0VAXEB7S#9IQ-WfqW9lDdYwfnNqFttxwOF_wAIHi_rGC3k3RnQL4" allowfullscreen ></iframe>    
+                                    <iframe frameborder="0" src="https://mega.nz/embed/0VAXEB7S#9IQ-WfqW9lDdYwfnNqFttxwOF_wAIHi_rGC3k3RnQL4" allowfullscreen allow="fullscreen"></iframe>    
                                 </div>
                             </div>
                         </div>
